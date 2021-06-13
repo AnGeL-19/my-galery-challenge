@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.contenedor{
+
+    width: 70%;
+    margin: 60px auto 100px;
+
+}
+
+.contenedor .caracteriticas-perfil{
+    width: 354px;
+    margin: 0 auto 64px;
+    text-align: center;
+}
+
+
+.contenedor .perfil .perfil_caracteristicas .foto{
+
+    width: 156px;
+    height: 156px;
+    margin: 0 auto 16px;
+
+}
+
+.contenedor .perfil .perfil_caracteristicas .foto img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 16px;
+}
+
+.contenedor .perfil .perfil_caracteristicas .nombre{
+    margin-bottom: 8px;
+}
+
+.contenedor .perfil .perfil_caracteristicas .nombre p{
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    color: #4E5150;
+
+}
+
+.contenedor .perfil .perfil_caracteristicas .ciudad{
+
+    margin-bottom: 24px;
+
+}
+
+.contenedor .perfil .perfil_caracteristicas .ciudad p{
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    color: #A9A9A9;
+
+}
+
+.contenedor .seguidores{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenedor .seguidores .caracteristicas{
+    padding: 15px;
+    width: 100px;
+    height: 67px;
+    background: #E5E5E5;
+    border-radius: 12px;
+}
+
+.contenedor .seguidores .caracteristicas span{
+    
+    display: block;
+    
+}
+
+.contenedor .seguidores .caracteristicas .numero{
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color: #4E5150;
+
+}
+
+.contenedor .seguidores .caracteristicas .texto{
+   
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+
+}
+
+.contenedor .imagenes .fila-1{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.contenedor .imagenes .foto img{
+    border-radius: 24px;
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+}
+
+
+.contenedor .imagenes .fila-1{
+    height: 299px;
+    width: 100%;
+    margin-bottom: 36px;
+}
+
+
+.contenedor .imagenes .fila-1 .foto1{
+    width: 30.1%;
+    margin-right: 36px;
+}
+
+.contenedor .imagenes .fila-1 .foto1 img{
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor .imagenes .fila-1 .foto2{
+    width: 65%;
+}
+
+.contenedor .imagenes .fila-1 .foto2 img{
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor .imagenes .fila-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenedor .imagenes .fila-2 .fila-2_3{
+    width: 65%;
+    
+}
+
+.contenedor .imagenes .fila-2 .fila-2_3 .foto{
+    width: 100%;
+    height: 299;
+    margin-bottom: 36px;
+}
+
+.contenedor .imagenes .fila-2 .fila-2_3 .foto3 img{
+    vertical-align: top;
+    width: 100%;
+}
+
+.contenedor .imagenes .fila-2 .fila-2_3 .fila-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.contenedor .imagenes .fila-2 .fila-2_3 .fila-3 .foto4{
+    width: 299px;
+    height: 299px;
+}
+
+.contenedor .imagenes .fila-2 .fila-2_3 .fila-3 .foto4 img{
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor .imagenes .fila-2 .fila-2_3 .fila-3 .foto5{
+    width: 299px;
+    height: 299px;
+}
+
+.contenedor .imagenes .fila-2 .fila-2_3 .fila-3 .foto5 img{
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+
+
+.contenedor .imagenes .fila-2 .foto6{
+    width: 30%;
+    height: 644px;
+}
+
+.contenedor .imagenes .fila-2 .foto6 img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+footer p{
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    color: #A9A9A9;
+}
+
+
+@media screen and (max-width:375px){
+
+    .contenedor{
+
+        width: 95%;
+        margin: 30px auto 40px;
+    
+    }
+    
+    .contenedor .caracteriticas-perfil{
+        width: 257px;
+        margin: 0 auto 39px;
+        text-align: center;
+    }
+    
+    
+    .contenedor .perfil .perfil_caracteristicas .foto{
+    
+        width: 101px;
+        height: 101px;
+        margin: 0 auto 11px;
+    
+    }
+    
+    .contenedor .perfil .perfil_caracteristicas .foto img{
+        width: 100%;
+        vertical-align: top;
+
+    }
+    
+    .contenedor .perfil .perfil_caracteristicas .nombre{
+        margin-bottom: 4px;
+    }
+    
+    .contenedor .perfil .perfil_caracteristicas .nombre p{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .contenedor .perfil .perfil_caracteristicas .ciudad{
+        margin-bottom: 12px;
+    }
+    
+    .contenedor .perfil .perfil_caracteristicas .ciudad p{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    
+    
+    .contenedor .seguidores .caracteristicas{
+        padding: 10px;
+        width: 78px;
+        height: 52px;
+        border-radius: 12px;
+    }
+    
+    
+    .contenedor .seguidores .caracteristicas .numero{
+    
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .contenedor .seguidores .caracteristicas .texto{
+       
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+
+    .contenedor .imagenes{
+        width: 100%;
+    }
+
+    .contenedor .imagenes .fila-1{
+        height: 109px;
+        width: 100%;
+        margin-bottom: 13px;
+    }
+
+    .contenedor .imagenes .fila-1 .foto1{
+        width: 30.1%;
+        margin-right: 13px;
+    }
+
+    .contenedor .imagenes .fila-2 .fila-2_3 .foto{
+        width: 100%;
+        height: 109;
+        margin-bottom: 13px;
+    }
+
+
+    .contenedor .imagenes .fila-2 .fila-2_3 .fila-3 .foto4{
+        width: 109px;
+        height: 109px;
+    }
+
+    .contenedor .imagenes .fila-2 .fila-2_3 .fila-3 .foto5{
+        width: 109px;
+        height: 109px;
+    }
+
+    .contenedor .imagenes .fila-2 .foto6{
+        width: 30%;
+        height: 238px;
+    }
+
+    footer{
+        margin-bottom: 28px;
+    }
+
+}
